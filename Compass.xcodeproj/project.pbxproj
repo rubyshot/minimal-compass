@@ -21,6 +21,7 @@
 		6623CA4E18AFC4AC00E9B6CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6623CA3018AFC4AC00E9B6CC /* UIKit.framework */; };
 		6623CA5618AFC4AC00E9B6CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6623CA5418AFC4AC00E9B6CC /* InfoPlist.strings */; };
 		6623CA5818AFC4AC00E9B6CC /* CompassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623CA5718AFC4AC00E9B6CC /* CompassTests.m */; };
+		6623CA6418AFCB9D00E9B6CC /* compassImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6623CA6318AFCB9D00E9B6CC /* compassImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		6623CA5318AFC4AC00E9B6CC /* CompassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CompassTests-Info.plist"; sourceTree = "<group>"; };
 		6623CA5518AFC4AC00E9B6CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6623CA5718AFC4AC00E9B6CC /* CompassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompassTests.m; sourceTree = "<group>"; };
+		6623CA6318AFCB9D00E9B6CC /* compassImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		6623CA3318AFC4AC00E9B6CC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6623CA6318AFCB9D00E9B6CC /* compassImage.png */,
 				6623CA3418AFC4AC00E9B6CC /* Compass-Info.plist */,
 				6623CA3518AFC4AC00E9B6CC /* InfoPlist.strings */,
 				6623CA3818AFC4AC00E9B6CC /* main.m */,
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6623CA6418AFCB9D00E9B6CC /* compassImage.png in Resources */,
 				6623CA4518AFC4AC00E9B6CC /* Images.xcassets in Resources */,
 				6623CA3718AFC4AC00E9B6CC /* InfoPlist.strings in Resources */,
 				6623CA4018AFC4AC00E9B6CC /* Main.storyboard in Resources */,

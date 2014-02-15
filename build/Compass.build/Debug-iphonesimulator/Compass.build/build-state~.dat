@@ -1,0 +1,385 @@
+TCompass
+v6
+r1
+cCheck dependencies
+cProcessPCH /var/folders/sz/blz8m2ns7734bczjtstgw6f40000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Compass-Prefix-cmwlazhdamqryedrtwzrshpkiruw/Compass-Prefix.pch.pch Compass/Compass-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/ViewController.o /Users/adam/iOS\ Workspace/Compass/Compass/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/AppDelegate.o /Users/adam/iOS\ Workspace/Compass/Compass/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/main.o /Users/adam/iOS\ Workspace/Compass/Compass/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Compass normal i386
+cCpResource Compass/compassImage.png build/Debug-iphonesimulator/Compass.app/compassImage.png
+cCopyStringsFile /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app/en.lproj/InfoPlist.strings Compass/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/adam/iOS\ Workspace/Compass/Compass/Base.lproj/Main.storyboard
+cCompileAssetCatalog /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app /Users/adam/iOS\ Workspace/Compass/Compass/Images.xcassets
+cProcessInfoPlistFile /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Info.plist /Users/adam/iOS\ Workspace/Compass/Compass/Compass-Info.plist
+cGenerateDSYMFile /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app.dSYM /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Compass
+cTouch /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000528141770000000000000176
+t1384202615
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000523A07A100000000000003B5
+t1379534753
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526909D500000000000001A0
+t1382615509
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000526909D70000000000445870
+t1382615511
+s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000526909D9000000000088C680
+t1382615513
+s8963712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000526909DF0000000001DB9910
+t1382615519
+s31168784
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c00000000523A08070000000000000AC9
+t1379534855
+s2761
+
+N/Users/adam/iOS Workspace/Compass/Compass/AppDelegate.m
+c0000000052FF8D2C00000000000007D8
+t1392479532
+s2008
+
+N/Users/adam/iOS Workspace/Compass/Compass/Base.lproj/Main.storyboard
+c0000000052FF92F70000000000000A4F
+t1392481015
+s2639
+
+N/Users/adam/iOS Workspace/Compass/Compass/Compass-Info.plist
+c0000000052FF8D2C00000000000004CA
+t1392479532
+s1226
+
+N/Users/adam/iOS Workspace/Compass/Compass/Compass-Prefix.pch
+c0000000052FF8D2C0000000000000158
+t1392479532
+s344
+
+N/Users/adam/iOS Workspace/Compass/Compass/Images.xcassets
+c0000000052FF8D2C0000000000000088
+t1392479532
+s136
+
+N/Users/adam/iOS Workspace/Compass/Compass/ViewController.m
+c0000000052FF92F700000000000006AE
+t1392481015
+s1710
+
+N/Users/adam/iOS Workspace/Compass/Compass/compassImage.png
+c0000000052FF91A20000000000001A7B
+t1392480674
+s6779
+
+N/Users/adam/iOS Workspace/Compass/Compass/en.lproj/InfoPlist.strings
+c0000000052FF8D2C000000000000002D
+t1392479532
+s45
+
+N/Users/adam/iOS Workspace/Compass/Compass/main.m
+c0000000052FF8D2C0000000000000152
+t1392479532
+s338
+
+N/Users/adam/iOS Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/AppDelegate.o
+t1392481017
+s65212
+
+N/Users/adam/iOS Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/Compass.LinkFileList
+c0000000052FF92F70000000000000170
+t1392481015
+s368
+
+N/Users/adam/iOS Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/ViewController.o
+t1392481017
+s57572
+
+N/Users/adam/iOS Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/main.o
+t1392481017
+s3636
+
+N/Users/adam/iOS Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/assetcatalog_dependencies.txt
+t1392481018
+s327
+
+N/Users/adam/iOS Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/assetcatalog_generated_info.plist
+t1392481018
+s525
+
+N/Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app
+t1392481018
+s340
+
+N/Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app.dSYM
+t2
+s0
+
+N/Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Base.lproj/Main.storyboardc
+t1392481017
+s170
+
+N/Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Compass
+t1392481017
+s23024
+
+N/Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Info.plist
+t1392481018
+s1014
+
+N/Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app/PkgInfo
+t1392481018
+s8
+
+N/Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app/compassImage.png
+t1392481017
+s6779
+
+N/Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app/en.lproj/InfoPlist.strings
+t1392481017
+s42
+
+N/var/folders/sz/blz8m2ns7734bczjtstgw6f40000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Compass-Prefix-cmwlazhdamqryedrtwzrshpkiruw/Compass-Prefix.pch.pch
+t1392481017
+s107580
+
+CBuild AST from /Users/adam/iOS\ Workspace/Compass/Compass/AppDelegate.m
+r0
+
+CBuild AST from /Users/adam/iOS\ Workspace/Compass/Compass/ViewController.m
+r0
+
+CBuild AST from /Users/adam/iOS\ Workspace/Compass/Compass/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesbd18de77caafb841^92b3ec77caafb841^---0#1#1#--18"Check dependencies36"132E0C9C-7717-46FF-9EED-5697EBC23293-
+
+CCompileAssetCatalog /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app /Users/adam/iOS\ Workspace/Compass/Compass/Images.xcassets
+s414173817.631314
+e414173818.868064
+r1
+xCompileAssetCatalog
+x/Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app
+x/Users/adam/iOS Workspace/Compass/Compass/Images.xcassets
+o2014-02-15 16:16:58.744 IBCocoaTouchImageCatalogTool[5374:303] CFPreferences: user home directory at file:///Users/adam/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o/* com.apple.actool.compilation-results */
+o/Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app/LaunchImage-700-568h@2x.png
+o/Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Assets.car
+o/Users/adam/iOS Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"CompileAssetCatalog build/Debug-iphonesimulator/Compass.app Compass/Images.xcassets83"CompileAssetCatalog build/Debug-iphonesimulator/Compass.app Compass/Images.xcassetsaeb7a179caafb841^e739de7acaafb841^-577"2014-02-15 16:16:58.744 IBCocoaTouchImageCatalogTool[5374:303] CFPreferences: user home directory at file:///Users/adam/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app/LaunchImage-700-568h@2x.png/Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Assets.car/Users/adam/iOS Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@67"file:///Users/adam/iOS%20Workspace/Compass/Compass/Images.xcassets/0000000000000000^1073"CompileAssetCatalog build/Debug-iphonesimulator/Compass.app Compass/Images.xcassets    cd "/Users/adam/iOS Workspace/Compass"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.0 --target-device iphone --compress-pngs --compile /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app /Users/adam/iOS\ Workspace/Compass/Compass/Images.xcassets36"B90F5A2F-8D80-45F0-A9E0-109F8FBEDF21-
+bEDA95D6B-3FE7-43BD-B3C0-D7206B69A131
+
+CCompileC build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/AppDelegate.o /Users/adam/iOS\ Workspace/Compass/Compass/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414173817.379102
+e414173817.490757
+r1
+xCompileC
+xbuild/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/AppDelegate.o
+x/Users/adam/iOS Workspace/Compass/Compass/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adam/iOS Workspace/Compass/Compass/AppDelegate.m
+d/Users/adam/iOS Workspace/Compass/Compass/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/adam/iOS Workspace/Compass/Compass/AppDelegate.m188"CompileC build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/AppDelegate.o Compass/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler38306179caafb841^a4a67d79caafb841^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/adam/iOS%20Workspace/Compass/Compass/AppDelegate.m0000000000000000^3468"CompileC build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/AppDelegate.o Compass/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/adam/iOS Workspace/Compass"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/adam/iOS\ Workspace/Compass/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Compass-generated-files.hmap -I/Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Compass-own-target-headers.hmap -I/Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Compass-all-target-headers.hmap -iquote /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Compass-project-headers.hmap -I/Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/DerivedSources/i386 -I/Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/DerivedSources -F/Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator -include /var/folders/sz/blz8m2ns7734bczjtstgw6f40000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Compass-Prefix-cmwlazhdamqryedrtwzrshpkiruw/Compass-Prefix.pch -MMD -MT dependencies -MF /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/AppDelegate.dia -c /Users/adam/iOS\ Workspace/Compass/Compass/AppDelegate.m -o /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/AppDelegate.o36"E2B9000A-8813-440C-BD60-E9469CE269FA-
+bEDA95D6B-3FE7-43BD-B3C0-D7206B69A131
+
+CCompileC build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/ViewController.o /Users/adam/iOS\ Workspace/Compass/Compass/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414173817.378819
+e414173817.586315
+r1
+xCompileC
+xbuild/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/ViewController.o
+x/Users/adam/iOS Workspace/Compass/Compass/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adam/iOS Workspace/Compass/Compass/ViewController.m
+d/Users/adam/iOS Workspace/Compass/Compass/ViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/adam/iOS Workspace/Compass/Compass/ViewController.m194"CompileC build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/ViewController.o Compass/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb9166179caafb841^fc199679caafb841^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/adam/iOS%20Workspace/Compass/Compass/ViewController.m0000000000000000^3486"CompileC build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/ViewController.o Compass/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/adam/iOS Workspace/Compass"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/adam/iOS\ Workspace/Compass/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Compass-generated-files.hmap -I/Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Compass-own-target-headers.hmap -I/Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Compass-all-target-headers.hmap -iquote /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Compass-project-headers.hmap -I/Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/DerivedSources/i386 -I/Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/DerivedSources -F/Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator -include /var/folders/sz/blz8m2ns7734bczjtstgw6f40000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Compass-Prefix-cmwlazhdamqryedrtwzrshpkiruw/Compass-Prefix.pch -MMD -MT dependencies -MF /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/ViewController.dia -c /Users/adam/iOS\ Workspace/Compass/Compass/ViewController.m -o /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/ViewController.o36"8A2BB41A-9B38-4ECF-9FDA-254917FDC37B-
+bEDA95D6B-3FE7-43BD-B3C0-D7206B69A131
+
+CCompileC build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/main.o /Users/adam/iOS\ Workspace/Compass/Compass/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414173817.379491
+e414173817.431321
+r1
+xCompileC
+xbuild/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/main.o
+x/Users/adam/iOS Workspace/Compass/Compass/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adam/iOS Workspace/Compass/Compass/main.m
+d/Users/adam/iOS Workspace/Compass/Compass/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Users/adam/iOS Workspace/Compass/Compass/main.m174"CompileC build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/main.o Compass/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler80466179caafb841^406b6e79caafb841^---0#0#1#-19%DVTDocumentLocation2@57"file:///Users/adam/iOS%20Workspace/Compass/Compass/main.m0000000000000000^3426"CompileC build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/main.o Compass/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/adam/iOS Workspace/Compass"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/adam/iOS\ Workspace/Compass/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Compass-generated-files.hmap -I/Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Compass-own-target-headers.hmap -I/Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Compass-all-target-headers.hmap -iquote /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Compass-project-headers.hmap -I/Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/DerivedSources/i386 -I/Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/DerivedSources -F/Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator -include /var/folders/sz/blz8m2ns7734bczjtstgw6f40000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Compass-Prefix-cmwlazhdamqryedrtwzrshpkiruw/Compass-Prefix.pch -MMD -MT dependencies -MF /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/main.dia -c /Users/adam/iOS\ Workspace/Compass/Compass/main.m -o /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/main.o36"C92DCC8E-79B5-4568-8BEB-2924E3FDD0B3-
+bEDA95D6B-3FE7-43BD-B3C0-D7206B69A131
+
+CCompileStoryboard /Users/adam/iOS\ Workspace/Compass/Compass/Base.lproj/Main.storyboard
+s414173817.630410
+e414173817.895146
+r1
+xCompileStoryboard
+x/Users/adam/iOS Workspace/Compass/Compass/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"CompileStoryboard Compass/Base.lproj/Main.storyboard52"CompileStoryboard Compass/Base.lproj/Main.storyboard5a81a179caafb841^823ae579caafb841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/adam/iOS%20Workspace/Compass/Compass/Base.lproj/Main.storyboard0000000000000000^819"CompileStoryboard Compass/Base.lproj/Main.storyboard    cd "/Users/adam/iOS Workspace/Compass"    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Base.lproj/Main.storyboardc /Users/adam/iOS\ Workspace/Compass/Compass/Base.lproj/Main.storyboard36"4FBE2203-40D9-4ECE-8047-C9BEF95FD1E4-
+bEDA95D6B-3FE7-43BD-B3C0-D7206B69A131
+
+CCopyStringsFile /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app/en.lproj/InfoPlist.strings Compass/en.lproj/InfoPlist.strings
+s414173817.630193
+e414173817.693125
+r1
+xCopyStringsFile
+x/Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app/en.lproj/InfoPlist.strings
+xCompass/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy Compass/en.lproj/InfoPlist.strings117"CopyStringsFile build/Debug-iphonesimulator/Compass.app/en.lproj/InfoPlist.strings Compass/en.lproj/InfoPlist.strings1572a179caafb841^4b75b179caafb841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/adam/iOS%20Workspace/Compass/Compass/en.lproj/InfoPlist.strings0000000000000000^568"CopyStringsFile build/Debug-iphonesimulator/Compass.app/en.lproj/InfoPlist.strings Compass/en.lproj/InfoPlist.strings    cd "/Users/adam/iOS Workspace/Compass"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app/en.lproj -- Compass/en.lproj/InfoPlist.strings36"E923B85D-E3CB-4703-A654-18C944DFECF3-
+bEDA95D6B-3FE7-43BD-B3C0-D7206B69A131
+
+CCpResource Compass/compassImage.png build/Debug-iphonesimulator/Compass.app/compassImage.png
+s414173817.630018
+e414173817.631929
+r1
+xCpResource
+xCompass/compassImage.png
+xbuild/Debug-iphonesimulator/Compass.app/compassImage.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/Compass.app/compassImage.png92"CpResource Compass/compassImage.png build/Debug-iphonesimulator/Compass.app/compassImage.png666ba179caafb841^26c7a179caafb841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/adam/iOS%20Workspace/Compass/build/Debug-iphonesimulator/Compass.app/compassImage.png003490dfddffdf42^578"CpResource Compass/compassImage.png build/Debug-iphonesimulator/Compass.app/compassImage.png    cd "/Users/adam/iOS Workspace/Compass"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adam/iOS\ Workspace/Compass/Compass/compassImage.png /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app36"68FDD8D2-1FB2-4BCA-86C8-CBFD7C3B9119-
+bEDA95D6B-3FE7-43BD-B3C0-D7206B69A131
+
+CGenerateDSYMFile /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app.dSYM /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Compass
+s414173818.871592
+e414173818.905830
+r1
+xGenerateDSYMFile
+x/Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app.dSYM
+x/Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Compass
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Generate /Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app.dSYM109"GenerateDSYMFile build/Debug-iphonesimulator/Compass.app.dSYM build/Debug-iphonesimulator/Compass.app/Compass8f35df7acaafb841^97e5e77acaafb841^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/adam/iOS%20Workspace/Compass/build/Debug-iphonesimulator/Compass.app.dSYM003490dfddffdf42^614"GenerateDSYMFile build/Debug-iphonesimulator/Compass.app.dSYM build/Debug-iphonesimulator/Compass.app/Compass    cd "/Users/adam/iOS Workspace/Compass"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Compass -o /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app.dSYM36"132E3B1B-4C13-4297-B77D-C93C916A07C5-
+bEDA95D6B-3FE7-43BD-B3C0-D7206B69A131
+
+CLd /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Compass normal i386
+s414173817.587252
+e414173817.628296
+r1
+xLd
+x/Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Compass
+xnormal
+xi386
+d/Users/adam/iOS Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/Compass.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/adam/iOS Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/ViewController.o
+d/Users/adam/iOS Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/AppDelegate.o
+d/Users/adam/iOS Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libdyld.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Link /Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Compass62"Ld build/Debug-iphonesimulator/Compass.app/Compass normal i386096c9679caafb841^9912a179caafb841^---0#0#1#--1302"Ld build/Debug-iphonesimulator/Compass.app/Compass normal i386    cd "/Users/adam/iOS Workspace/Compass"    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator -F/Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator -filelist /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/Compass.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Objects-normal/i386/Compass_dependency_info.dat -o /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Compass36"F7C2FD77-6F41-4064-A437-178B2920A30B-
+bEDA95D6B-3FE7-43BD-B3C0-D7206B69A131
+
+CProcessInfoPlistFile /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Info.plist /Users/adam/iOS\ Workspace/Compass/Compass/Compass-Info.plist
+s414173818.868714
+e414173818.870937
+r1
+xProcessInfoPlistFile
+x/Users/adam/iOS Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Info.plist
+x/Users/adam/iOS Workspace/Compass/Compass/Compass-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Process /Users/adam/iOS Workspace/Compass/Compass/Compass-Info.plist98"ProcessInfoPlistFile build/Debug-iphonesimulator/Compass.app/Info.plist Compass/Compass-Info.plist3579de7acaafb841^12f9de7acaafb841^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/adam/iOS%20Workspace/Compass/Compass/Compass-Info.plist0000000000000000^822"ProcessInfoPlistFile build/Debug-iphonesimulator/Compass.app/Info.plist Compass/Compass-Info.plist    cd "/Users/adam/iOS Workspace/Compass"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/adam/iOS\ Workspace/Compass/Compass/Compass-Info.plist -genpkginfo /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/assetcatalog_generated_info.plist -o /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app/Info.plist36"E479B074-AE4C-4D6C-861E-E92968C9B3EF-
+bEDA95D6B-3FE7-43BD-B3C0-D7206B69A131
+
+CProcessPCH /Users/adam/iOS\ Workspace/Compass/DerivedData/Compass/Index/PrecompiledHeaders/Compass-Prefix-fzxrsryuzcgvqaapgwlkrbpvumsa_ast/Compass-Prefix.pch.pch Compass/Compass-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/sz/blz8m2ns7734bczjtstgw6f40000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Compass-Prefix-cmwlazhdamqryedrtwzrshpkiruw/Compass-Prefix.pch.pch Compass/Compass-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414173815.926400
+e414173817.377931
+r1
+xProcessPCH
+x/var/folders/sz/blz8m2ns7734bczjtstgw6f40000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Compass-Prefix-cmwlazhdamqryedrtwzrshpkiruw/Compass-Prefix.pch.pch
+xCompass/Compass-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adam/iOS Workspace/Compass/Compass/Compass-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Compass/Compass-Prefix.pch290"ProcessPCH /var/folders/sz/blz8m2ns7734bczjtstgw6f40000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Compass-Prefix-cmwlazhdamqryedrtwzrshpkiruw/Compass-Prefix.pch.pch Compass/Compass-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3350ed77caafb841^59c06079caafb841^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/adam/iOS%20Workspace/Compass/Compass/Compass-Prefix.pch0000000000000000^3568"ProcessPCH /var/folders/sz/blz8m2ns7734bczjtstgw6f40000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Compass-Prefix-cmwlazhdamqryedrtwzrshpkiruw/Compass-Prefix.pch.pch Compass/Compass-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/adam/iOS Workspace/Compass"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/adam/iOS\ Workspace/Compass/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Compass-generated-files.hmap -I/Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Compass-own-target-headers.hmap -I/Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Compass-all-target-headers.hmap -iquote /Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/Compass-project-headers.hmap -I/Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/DerivedSources/i386 -I/Users/adam/iOS\ Workspace/Compass/build/Compass.build/Debug-iphonesimulator/Compass.build/DerivedSources -F/Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/sz/blz8m2ns7734bczjtstgw6f40000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Compass-Prefix-cmwlazhdamqryedrtwzrshpkiruw/Compass-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/sz/blz8m2ns7734bczjtstgw6f40000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Compass-Prefix-cmwlazhdamqryedrtwzrshpkiruw/Compass-Prefix.pch.d -c /Users/adam/iOS\ Workspace/Compass/Compass/Compass-Prefix.pch -o /var/folders/sz/blz8m2ns7734bczjtstgw6f40000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Compass-Prefix-cmwlazhdamqryedrtwzrshpkiruw/Compass-Prefix.pch.pch36"F5DA6351-5B66-4E58-85F9-D72A94C3D538-
+bEDA95D6B-3FE7-43BD-B3C0-D7206B69A131
+
+CTouch /Users/adam/iOS\ Workspace/Compass/build/Debug-iphonesimulator/Compass.app
+r0
+
