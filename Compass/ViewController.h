@@ -10,17 +10,22 @@
 #import <CoreLocation/CoreLocation.h>
 #import <QuartzCore/QuartzCore.h>
 
-CLLocationManager *locationManager;
 
-@interface ViewController : UIViewController <CLLocationManagerDelegate>{
-    
-}
+UIImage *livePointerImage;
+UIImage *blankPointerImage;
+
+@interface ViewController : UIViewController <CLLocationManagerDelegate>
 
 @property (nonatomic, retain) CLLocationManager		*locationManager;
+@property (nonatomic, retain) IBOutlet UIImageView *compassImage;
+@property (nonatomic, retain) IBOutlet UILabel *trueHeadingLabel;
+@property (nonatomic, retain) IBOutlet UIImageView *pointerImage;
+@property (strong, nonatomic) IBOutlet UIButton *InfoViewButton;
+@property (strong, nonatomic) IBOutlet UILabel *calibrationLabel;
+
+- (IBAction)InfoViewButton:(id)sender;
 
 
-@property (strong, nonatomic) IBOutlet UIImageView *compassImage;
-@property (strong, nonatomic) IBOutlet UILabel *magHeadingLabel;
-@property (strong, nonatomic) IBOutlet UILabel *trueHeadingLabel;
+
 
 @end

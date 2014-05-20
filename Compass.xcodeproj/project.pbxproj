@@ -21,7 +21,7 @@
 		6623CA4E18AFC4AC00E9B6CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6623CA3018AFC4AC00E9B6CC /* UIKit.framework */; };
 		6623CA5618AFC4AC00E9B6CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6623CA5418AFC4AC00E9B6CC /* InfoPlist.strings */; };
 		6623CA5818AFC4AC00E9B6CC /* CompassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623CA5718AFC4AC00E9B6CC /* CompassTests.m */; };
-		6623CA6418AFCB9D00E9B6CC /* compassImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6623CA6318AFCB9D00E9B6CC /* compassImage.png */; };
+		66B833D9192A6F6B00EF83B3 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B833D8192A6F6B00EF83B3 /* InfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,8 @@
 		6623CA5318AFC4AC00E9B6CC /* CompassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CompassTests-Info.plist"; sourceTree = "<group>"; };
 		6623CA5518AFC4AC00E9B6CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6623CA5718AFC4AC00E9B6CC /* CompassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompassTests.m; sourceTree = "<group>"; };
-		6623CA6318AFCB9D00E9B6CC /* compassImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassImage.png; sourceTree = "<group>"; };
+		66B833D7192A6F6B00EF83B3 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		66B833D8192A6F6B00EF83B3 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +120,8 @@
 				6623CA3E18AFC4AC00E9B6CC /* Main.storyboard */,
 				6623CA4118AFC4AC00E9B6CC /* ViewController.h */,
 				6623CA4218AFC4AC00E9B6CC /* ViewController.m */,
+				66B833D7192A6F6B00EF83B3 /* InfoViewController.h */,
+				66B833D8192A6F6B00EF83B3 /* InfoViewController.m */,
 				6623CA4418AFC4AC00E9B6CC /* Images.xcassets */,
 				6623CA3318AFC4AC00E9B6CC /* Supporting Files */,
 			);
@@ -128,7 +131,6 @@
 		6623CA3318AFC4AC00E9B6CC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6623CA6318AFCB9D00E9B6CC /* compassImage.png */,
 				6623CA3418AFC4AC00E9B6CC /* Compass-Info.plist */,
 				6623CA3518AFC4AC00E9B6CC /* InfoPlist.strings */,
 				6623CA3818AFC4AC00E9B6CC /* main.m */,
@@ -199,9 +201,12 @@
 		6623CA2118AFC4AC00E9B6CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Adam Noden";
 				TargetAttributes = {
+					6623CA2818AFC4AC00E9B6CC = {
+						DevelopmentTeam = XKNGFRSH5R;
+					};
 					6623CA4918AFC4AC00E9B6CC = {
 						TestTargetID = 6623CA2818AFC4AC00E9B6CC;
 					};
@@ -231,7 +236,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6623CA6418AFCB9D00E9B6CC /* compassImage.png in Resources */,
 				6623CA4518AFC4AC00E9B6CC /* Images.xcassets in Resources */,
 				6623CA3718AFC4AC00E9B6CC /* InfoPlist.strings in Resources */,
 				6623CA4018AFC4AC00E9B6CC /* Main.storyboard in Resources */,
@@ -255,6 +259,7 @@
 			files = (
 				6623CA4318AFC4AC00E9B6CC /* ViewController.m in Sources */,
 				6623CA3D18AFC4AC00E9B6CC /* AppDelegate.m in Sources */,
+				66B833D9192A6F6B00EF83B3 /* InfoViewController.m in Sources */,
 				6623CA3918AFC4AC00E9B6CC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,7 +314,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -348,7 +352,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -382,9 +385,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Adam Noden (96SU83LE73)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Compass/Compass-Prefix.pch";
 				INFOPLIST_FILE = "Compass/Compass-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,9 +400,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: NTS Creative Ltd (XKNGFRSH5R)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Compass/Compass-Prefix.pch";
 				INFOPLIST_FILE = "Compass/Compass-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,7 +413,6 @@
 		6623CA5F18AFC4AC00E9B6CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Compass.app/Compass";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -429,7 +435,6 @@
 		6623CA6018AFC4AC00E9B6CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Compass.app/Compass";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -464,6 +469,7 @@
 				6623CA5D18AFC4AC00E9B6CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6623CA5E18AFC4AC00E9B6CC /* Build configuration list for PBXNativeTarget "CompassTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +478,7 @@
 				6623CA6018AFC4AC00E9B6CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
