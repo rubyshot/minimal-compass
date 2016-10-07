@@ -15,7 +15,7 @@
 
 @implementation ViewController
 
-@synthesize locationManager, compassImage, trueHeadingLabel, pointerImage, InfoViewButton, calibrationLabel;
+@synthesize locationManager, compassImage, trueHeadingLabel, pointerImage, InfoViewButton, calibrationLabel, calibrationCheck, signal;
 
 
 - (void)viewDidLoad
@@ -23,8 +23,25 @@
     
     [super viewDidLoad];
     
+    // declare images to be used for pointer
     livePointerImage = [UIImage imageNamed: @"livePointer"];
     blankPointerImage = [UIImage imageNamed: @"pointer"];
+    
+    // Declaring calibration bar images
+    goodSignal = [UIImage imageNamed: @"goodSignal"];
+    weakSignal = [UIImage imageNamed: @"weakSignal"];
+    noSignal = [UIImage imageNamed: @"noSignal"];
+    
+    
+    // initialize calibration label
+    calibrationCheck.hidden = NO;
+    calibrationCheck.alpha = 0.0f;
+    calibrationCheck.numberOfLines = 0;
+    
+    noHead = [NSString stringWithFormat:@"Strong magnetic interference"];
+    weakHead = [NSString stringWithFormat:@"Some magnetic interference"];
+    twistPhone = [NSString stringWithFormat:@"Twist phone to calibrate"];
+    
     
     // device detection and UI positioning
     if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
@@ -33,7 +50,7 @@
         if(result.height == 480)
         {
             // iPhone Classic
-            [self positionUI];
+            [self positionUI_IPHONE4];
             
         }
         if(result.height == 568)
@@ -43,6 +60,8 @@
         }
     }
     
+    
+    // hide status bar
     if ([self respondsToSelector:@selector(setNeedsStatusBarAppearanceUpdate)]) {
         // iOS 7
         [self performSelector:@selector(setNeedsStatusBarAppearanceUpdate)];
@@ -57,6 +76,7 @@
     locationManager.headingFilter = 1;
     locationManager.delegate=self;
     
+    
     // start the compass
     [locationManager startUpdatingHeading];
     
@@ -69,14 +89,16 @@
 }
 
 
--(void) positionUI{
+-(void) positionUI_IPHONE4{
     
     float midpointX = self.view.frame.size.width/2;
     float midpointY = self.view.frame.size.height/2;
     
-    trueHeadingLabel.center = CGPointMake(midpointX, midpointY-145);
-    pointerImage.center = CGPointMake(midpointX, midpointY-110);
-    InfoViewButton.center = CGPointMake(midpointX, midpointY+190);
+    trueHeadingLabel.center = CGPointMake(midpointX+5, midpointY-170);
+    pointerImage.center = CGPointMake(midpointX, midpointY-135);
+    InfoViewButton.center = CGPointMake(self.view.frame.size.width-50, self.view.frame.size.height-50);
+    signal.center = CGPointMake(50, self.view.frame.size.height-50);
+    calibrationCheck.center = CGPointMake(midpointX, 35);
     
 }
 
@@ -85,9 +107,11 @@
     float midpointX = self.view.frame.size.width/2;
     float midpointY = self.view.frame.size.height/2;
     
-    trueHeadingLabel.center = CGPointMake(midpointX, midpointY-170);
+    trueHeadingLabel.center = CGPointMake(midpointX+5, midpointY-170);
     pointerImage.center = CGPointMake(midpointX, midpointY-135);
-    InfoViewButton.center = CGPointMake(midpointX, midpointY+240);
+    InfoViewButton.center = CGPointMake(self.view.frame.size.width-50, self.view.frame.size.height-50);
+    signal.center = CGPointMake(50, self.view.frame.size.height-50);
+    calibrationCheck.center = CGPointMake(midpointX, 45);
     
 }
 
@@ -121,12 +145,79 @@
         [pointerImage setImage:blankPointerImage];
     }
     
-    // calibration label
-    calibrationLabel.text = [NSString stringWithFormat:@"%i", (int)(manager.heading)];
+    // calibration check (dev)
+    // calibrationLabel.text = [NSString stringWithFormat:@"%f", manager.heading.headingAccuracy];
+    
+    
+    
+    // calibration check
+    if(!manager.heading.headingAccuracy){
+        
+        calibrationCheck.text = [NSString stringWithFormat:@"%@\r%@", noHead, twistPhone];
+        
+        [signal setBackgroundImage:noSignal forState:UIControlStateNormal];
+        
+    
+    }
+    else if(manager.heading.headingAccuracy<0){
+        
+        calibrationCheck.text = [NSString stringWithFormat:@"%@\r%@", noHead, twistPhone];
+        
+        [signal setBackgroundImage:noSignal forState:UIControlStateNormal];
+        
+      
+    }
+    else if(manager.heading.headingAccuracy>30){
+        
+        calibrationCheck.text = [NSString stringWithFormat:@"%@\r%@", noHead, twistPhone];
+        
+        [signal setBackgroundImage:noSignal forState:UIControlStateNormal];
+        
+    }
+    else if(manager.heading.headingAccuracy>10){
+        
+        calibrationCheck.text = [NSString stringWithFormat:@"%@\r%@", weakHead, twistPhone];
+        
+        [signal setBackgroundImage:weakSignal forState:UIControlStateNormal];
+   
+    }
+    else if(manager.heading.headingAccuracy<=10){
+        calibrationCheck.text = [NSString stringWithFormat:@"Clear reading"];
+        
+        [signal setBackgroundImage:goodSignal forState:UIControlStateNormal];
+ 
+    }
+
     
     // console print of heading
 	NSLog(@"True heading: %f", newHeading.trueHeading);
     
+}
+
+-(void) showCalibrationMessage{
+   
+    calibrationCheck.hidden = NO;
+    
+    [UIView animateWithDuration:0.3 delay:0.0 options:UIViewAnimationOptionCurveEaseIn animations:^{
+        
+        calibrationCheck.alpha = 1.0f;
+    } completion:^(BOOL finished) {}
+    ];
+}
+
+-(void) hideCalibrationMessage{
+    
+    calibrationCheck.hidden = NO;
+    
+    [UIView animateWithDuration:0.3 delay:0.0 options:UIViewAnimationOptionCurveEaseOut animations:^{
+        // Animate the alpha value of your imageView from 1.0 to 0.0 here
+        calibrationCheck.alpha = 0.0f;
+        
+    } completion:^(BOOL finished) {
+        // Once the animation is completed and the alpha has gone to 0.0, hide the view for good
+        calibrationCheck.hidden = YES;
+        
+    }];
 }
 
 
@@ -141,6 +232,18 @@
 - (IBAction)InfoViewButton:(id)sender {
     [self performSegueWithIdentifier:@"InfoView" sender:self];
 }
+
+- (IBAction)signalButton:(id)sender {
+    
+    if(calibrationCheck.hidden){
+        [self showCalibrationMessage];
+    }
+    else{
+        [self hideCalibrationMessage];
+    }
+}
+
+
 
 
 //- (BOOL)locationManagerShouldDisplayHeadingCalibration:(CLLocationManager*)manager {

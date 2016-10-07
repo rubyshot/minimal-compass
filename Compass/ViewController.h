@@ -14,6 +14,14 @@
 UIImage *livePointerImage;
 UIImage *blankPointerImage;
 
+UIImage* goodSignal;
+UIImage* weakSignal;
+UIImage* noSignal;
+
+NSString* noHead;
+NSString* twistPhone;
+NSString* weakHead;
+
 @interface ViewController : UIViewController <CLLocationManagerDelegate>
 
 @property (nonatomic, retain) CLLocationManager		*locationManager;
@@ -22,8 +30,11 @@ UIImage *blankPointerImage;
 @property (nonatomic, retain) IBOutlet UIImageView *pointerImage;
 @property (strong, nonatomic) IBOutlet UIButton *InfoViewButton;
 @property (strong, nonatomic) IBOutlet UILabel *calibrationLabel;
+@property (strong, nonatomic) IBOutlet UILabel *calibrationCheck;
+@property (strong, nonatomic) IBOutlet UIButton *signal;
 
 - (IBAction)InfoViewButton:(id)sender;
+- (IBAction)signalButton:(id)sender;
 
 
 

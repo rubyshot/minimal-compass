@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
@@ -12,7 +13,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass" id="YXC-3l-rIb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass" id="YXC-3l-rIb">
                                 <rect key="frame" x="35" y="159" width="250" height="250"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -28,7 +29,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="oMC-rZ-9CR">
-                                <rect key="frame" x="136" y="498" width="50" height="50"/>
+                                <rect key="frame" x="250" y="498" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="info">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -38,21 +39,40 @@
                                     <segue destination="N3m-LA-F6q" kind="modal" identifier="InfoView" id="AQ9-lO-C9o"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xnu-G4-M8t">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xnu-G4-M8t">
                                 <rect key="frame" x="0.0" y="346" width="320" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="26"/>
                                 <color key="textColor" red="0.59223533159999997" green="0.59223533159999997" blue="0.59223533159999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="d58-eb-Ao1">
+                                <rect key="frame" x="0.0" y="13" width="320" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.59223533159999997" green="0.59223533159999997" blue="0.59223533159999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5Fd-Gi-Jh4">
+                                <rect key="frame" x="20" y="498" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="signalButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="H5o-An-ivR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="InfoViewButton" destination="oMC-rZ-9CR" id="hQV-ng-gDd"/>
+                        <outlet property="calibrationCheck" destination="d58-eb-Ao1" id="CZa-ms-Xfz"/>
                         <outlet property="calibrationLabel" destination="Xnu-G4-M8t" id="5ur-O3-gNW"/>
                         <outlet property="compassImage" destination="YXC-3l-rIb" id="vd8-dS-nZm"/>
                         <outlet property="pointerImage" destination="p8i-HH-Z1S" id="bbA-LQ-OSV"/>
+                        <outlet property="signal" destination="5Fd-Gi-Jh4" id="nQL-Ln-Q1Y"/>
                         <outlet property="trueHeadingLabel" destination="yk6-S5-n9r" id="SoF-U9-6aL"/>
                     </connections>
                 </viewController>
@@ -109,7 +129,7 @@
     </scenes>
     <resources>
         <image name="back" width="50" height="50"/>
-        <image name="compass" width="250" height="250"/>
+        <image name="compass" width="500" height="500"/>
         <image name="info" width="50" height="50"/>
         <image name="pointer" width="20" height="20"/>
         <image name="twitter" width="120" height="60"/>
